@@ -13,26 +13,34 @@ https://www.e-stat.go.jp/stat-search/files?page=1&layout=datalist&toukei=0020050
 出典：患者調査
 取得元：以下のリンク
 
-https://www.e-stat.go.jp/stat-search/files?page=1&layout=datalist&toukei=00450022&tstat=000001031167&cycle=7&tclass1=000001124800&tclass2=000001124802
-
 詳細説明：
 ・「第17表　受療率（人口10万対），入院－外来・施設の種類 × 傷病分類 × 都道府県別」をダウンロード
 ・「入院_悪性新生物_2017」は、B列の中で、A列が「（悪性新生物＜腫瘍＞）（再掲）」となっているものを取得し、
 ・DataFormat.csvのH列に転記
 
 ・「入院_心疾患_2017」は、B列の中で、A列が「（心疾患（高血圧性のものを除く））（再掲）」となっているものを取得し、
+https://www.e-stat.go.jp/stat-search/files?page=1&layout=datalist&toukei=00450022&tstat=000001031167&cycle=7&tclass1=000001124800&tclass2=000001124802
 ・DataFormat.csvのI列に転記
 
+
+
 ・「入院_脳血管疾患_2017」は、B列の中で、A列が「脳血管疾患（再掲）」となっているものを取得し、
+https://www.e-stat.go.jp/stat-search/files?page=1&layout=datalist&toukei=00450022&tstat=000001031167&cycle=7&tclass1=000001124800&tclass2=000001124802
 ・DataFormat.csvのJ列に転記
 
+
+
 ・「外来_悪性新生物_2017」は、E列の中で、A列が「（悪性新生物＜腫瘍＞）（再掲）」となっているものを取得し、
+https://www.e-stat.go.jp/stat-search/files?page=1&layout=datalist&toukei=00450022&tstat=000001031167&cycle=7&tclass1=000001124800&tclass2=000001124802
 ・DataFormat.csvのK列に転記
 
+
 ・「外来_心疾患_2017」は、E列の中で、A列が「（心疾患（高血圧性のものを除く））（再掲）」となっているものを取得し、
+https://www.e-stat.go.jp/stat-search/files?page=1&layout=datalist&toukei=00450022&tstat=000001031167&cycle=7&tclass1=000001124800&tclass2=000001124802
 ・DataFormat.csvのL列に転記
 
 ・「外来_脳血管疾患_2017」は、E列の中で、A列が「脳血管疾患（再掲）」となっているものを取得し、
+https://www.e-stat.go.jp/stat-search/files?page=1&layout=datalist&toukei=00450022&tstat=000001031167&cycle=7&tclass1=000001124800&tclass2=000001124802
 ・DataFormat.csvのM列に転記
 #############################################################
 変数名：施設数
@@ -40,48 +48,51 @@ https://www.e-stat.go.jp/stat-search/files?page=1&layout=datalist&toukei=0045002
 の概況
 取得元：以下のリンク
 
-https://www.mhlw.go.jp/toukei/saikin/hw/iryosd/19/
 
 詳細説明：
 ・「統計表」をダウンロード
 ・「病院数_2019」は、「統計表1～16」をダウンロード
 ・シート「統計表9-1」の「K列」より2019年の人口10万人当たりの病院数を取得
+
+https://www.mhlw.go.jp/toukei/saikin/hw/iryosd/19/
 ・DataFormat.csvのN列に転記
 
 ・「統計表」をダウンロード
 ・「診療所数_2019」は、「統計表1～16」をダウンロード
 ・シート「統計表9-1」の「N列」より2019年の人口10万人当たりの一般診療所数をを取得
+
+https://www.mhlw.go.jp/toukei/saikin/hw/iryosd/19/
 ・DataFormat.csvのO列に転記
 #############################################################
 変数名：がん治療認定医数_2020
 出典：がん治療認定医名簿（2020年4月1日現在)
 取得元：以下のリンク
 
-https://www.jbct.jp/general/figure.html
 
 詳細説明：
 ・「認定医総数（2020年4月1日現在）　都道府県別認定医数一覧」をダウンロード
 ・「全国都道府県別　認定医総数」の「合計」を取得、
+https://www.jbct.jp/general/figure.html
 ・DataFormat.csvのP列に転記
 #############################################################
 変数名：循環器専門医数_2020
 出典：会員名簿・循環器専門医名簿（2020年5月14日現在）
 取得元：以下のリンク
 
-https://www.j-circ.or.jp/senmoni_kensaku/
 
 詳細説明：
 ・リンク先Webサイトより、「専門医名簿検索」によって各都道府県の専門医を検索、
+https://www.j-circ.or.jp/senmoni_kensaku/
 ・DataFormat.csvのQ列に転記
 #############################################################
 変数名：内視鏡専門医数_2020
 出典：会員名簿（2020年4月1日現在）
 取得元：以下のリンク
 
-https://www.jges.net/medical/about/list/memberlist#92
 
 詳細説明：
 ・各都道府県の「会員名簿」を参照し、名簿に記載されている医師名の数を集計
+https://www.jges.net/medical/about/list/memberlist#92
 ・DataFormat.csvのR列に転記
 #############################################################
 変数名：75歳未満調整死亡率_悪性新生物_2018
@@ -127,7 +138,7 @@ http://toukei.umin.jp/kenkoujyumyou/
 ・「都道府県別健康寿命（2010～2016年）」をダウンロード
 ・男性の健康寿命はシート「付表1-1」より「I列」の2016年の推定値を、女性の健康寿命はシート「付表1-2」より「I列」の2016年の推定値を取得
 ・DataFormat.csvのV列に転記
-・国民生活基礎調査は熊本地震により2016年の熊本県の健康情報を調査していないが、熊本県の2016年健康寿命のデータに 
+・国民生活基礎調査は熊本地震により2016年の熊本県の健康情報を調査していないが、熊本県の2016年健康寿命のデータに
 　熊本県の3年次の平均を下式による、2016年の仮定に基づく推定値を用いて算定した
 　(熊本県の2016年の仮定に基づく推定値)＝(熊本県の2013年の推定値)×(全国の2016年の推定値)/(全国の2013年の推定値)
 ############################################################
@@ -153,6 +164,7 @@ https://www.mhlw.go.jp/toukei/saikin/hw/jinkou/other/15sibou/index.html
 ・「年齢調整死亡率_心疾患_2015」は、31ページの「心疾患」列より取得
 ・DataFormat.csvのX列に転記
 
+https://www.mhlw.go.jp/toukei/saikin/hw/jinkou/other/15sibou/index.html
 ・「年齢調整死亡率_脳血管疾患_2015」は、32ページの「脳血管疾患」列より取得
 ・DataFormat.csvのY列に転記
 ############################################################
@@ -195,76 +207,82 @@ https://www.e-stat.go.jp/stat-search/files?page=1&layout=datalist&toukei=0020053
 出典：統計でみる都道府県のすがた2020
 取得元：以下のリンク
 
-https://www.e-stat.go.jp/stat-search/files?page=1&layout=datalist&toukei=00200502&tstat=000001137306&cycle=0&year=20200&month=0&tclass1=000001137307
-
 詳細説明：
 ・「A　人口・世帯」をダウンロード
 ・年少人口割合は、AD列「15歳未満人口割合（対総人口）」を取得し、
+https://www.e-stat.go.jp/stat-search/files?page=1&layout=datalist&toukei=00200502&tstat=000001137306&cycle=0&year=20200&month=0&tclass1=000001137307
 ・DataFormat.csvのAC列に転記
 
 ・老年人口割合は、AF列「65歳以上人口割合（対総人口）」を取得し、
+https://www.e-stat.go.jp/stat-search/files?page=1&layout=datalist&toukei=00200502&tstat=000001137306&cycle=0&year=20200&month=0&tclass1=000001137307
 ・DataFormat.csvのAD列に転記
 
 ・生産年齢人口割合は、AH列「15～64歳人口割合（対総人口）」を取得し、
+https://www.e-stat.go.jp/stat-search/files?page=1&layout=datalist&toukei=00200502&tstat=000001137306&cycle=0&year=20200&month=0&tclass1=000001137307
 ・DataFormat.csvのAE列に転記
 
 ・粗死亡率は、AX列「粗死亡率（人口千人当たり）」を取得し、
+https://www.e-stat.go.jp/stat-search/files?page=1&layout=datalist&toukei=00200502&tstat=000001137306&cycle=0&year=20200&month=0&tclass1=000001137307
 ・DataFormat.csvのAF列に転記
 
 ・共働き世帯割合は、CH列「共働き世帯割合（対一般世帯数）」を取得し、
+https://www.e-stat.go.jp/stat-search/files?page=1&layout=datalist&toukei=00200502&tstat=000001137306&cycle=0&year=20200&month=0&tclass1=000001137307
 ・DataFormat.csvのAG列に転記
 ############################################################
 変数名：自然環境
 出典：統計でみる都道府県のすがた2020
 取得元：以下のリンク
 
-https://www.e-stat.go.jp/stat-search/files?page=1&layout=datalist&toukei=00200502&tstat=000001137306&cycle=0&year=20200&month=0&tclass1=000001137307
 
 詳細説明：
 ・「B　自然環境」をダウンロード
 ・年平均気温は、V列「年平均気温」を取得し、
+https://www.e-stat.go.jp/stat-search/files?page=1&layout=datalist&toukei=00200502&tstat=000001137306&cycle=0&year=20200&month=0&tclass1=000001137307
 ・DataFormat.csvのAH列に転記
 
 ・年平均相対湿度は、AB列「年平均相対湿度」を取得し、
+https://www.e-stat.go.jp/stat-search/files?page=1&layout=datalist&toukei=00200502&tstat=000001137306&cycle=0&year=20200&month=0&tclass1=000001137307
 ・DataFormat.csvのAI列に転記
 
 ・降水量（年間）は、AF列「降水量（年間）」を取得し、
+https://www.e-stat.go.jp/stat-search/files?page=1&layout=datalist&toukei=00200502&tstat=000001137306&cycle=0&year=20200&month=0&tclass1=000001137307
 ・DataFormat.csvのAJ列に転記
 
 ・雪日数（年間）は、AL列「雪日数（年間）」を取得し、
+https://www.e-stat.go.jp/stat-search/files?page=1&layout=datalist&toukei=00200502&tstat=000001137306&cycle=0&year=20200&month=0&tclass1=000001137307
 ・DataFormat.csvのAK列に転記
 ############################################################
 変数名：経済基盤
 出典：統計でみる都道府県のすがた2020
 取得元：以下のリンク
 
-https://www.e-stat.go.jp/stat-search/files?page=1&layout=datalist&toukei=00200502&tstat=000001137306&cycle=0&year=20200&month=0&tclass1=000001137307
 
 詳細説明：
 ・「C　経済基盤」をダウンロード
 ・県民所得は、L列「１人当たり県民所得」を取得し、
+https://www.e-stat.go.jp/stat-search/files?page=1&layout=datalist&toukei=00200502&tstat=000001137306&cycle=0&year=20200&month=0&tclass1=000001137307
 ・DataFormat.csvのAL列に転記
 ############################################################
 変数名：行政基盤
 出典：統計でみる都道府県のすがた2020
 取得元：以下のリンク
 
-https://www.e-stat.go.jp/stat-search/files?page=1&layout=datalist&toukei=00200502&tstat=000001137306&cycle=0&year=20200&month=0&tclass1=000001137307
 
 詳細説明：
 ・「D 　行政基盤」をダウンロード
 ・財政力指数は、L列「財政力指数(都道府県財政)」を取得し、
+https://www.e-stat.go.jp/stat-search/files?page=1&layout=datalist&toukei=00200502&tstat=000001137306&cycle=0&year=20200&month=0&tclass1=000001137307
 ・DataFormat.csvのAM列に転記
 ############################################################
 変数名：行政基盤
 出典：統計でみる都道府県のすがた2020
 取得元：以下のリンク
 
-https://www.e-stat.go.jp/stat-search/files?page=1&layout=datalist&toukei=00200502&tstat=000001137306&cycle=0&year=20200&month=0&tclass1=000001137307
 
 詳細説明：
 ・「D 　行政基盤」をダウンロード
 ・収支比率は、N列「実質収支比率(都道府県財政)」を取得し、
+https://www.e-stat.go.jp/stat-search/files?page=1&layout=datalist&toukei=00200502&tstat=000001137306&cycle=0&year=20200&month=0&tclass1=000001137307
 ・DataFormat.csvのAN列に転記
 ############################################################
 変数名：行政基盤
@@ -850,7 +868,7 @@ https://www.e-stat.go.jp/stat-search/files?page=1&layout=datalist&toukei=0020053
 ・読書の割合は、AO列「27_趣味としての読書」の男女別の各都道府県別の総数を取得し、
 ・DataFormat.csvの　CO列に転記
 ############################################################
-変数名：生活行動－学習・自己啓発・訓練	
+変数名：生活行動－学習・自己啓発・訓練
 出典：平成28年社会生活基本調査
 取得元：以下のリンク
 
@@ -861,7 +879,7 @@ https://www.e-stat.go.jp/stat-search/files?page=1&layout=datalist&toukei=0020053
 ・学習・自己啓発・訓練率の割合は、N列「0_総数」の男女別の各都道府県別の総数を取得し、
 ・DataFormat.csvの　CP列に転記
 ############################################################
-変数名：生活行動－学習・自己啓発・訓練	
+変数名：生活行動－学習・自己啓発・訓練
 出典：平成28年社会生活基本調査
 取得元：以下のリンク
 
@@ -872,7 +890,7 @@ https://www.e-stat.go.jp/stat-search/files?page=1&layout=datalist&toukei=0020053
 ・芸術・文化の割合は、X列「6_芸術・文化」の男女別の各都道府県別の総数を取得し、
 ・DataFormat.csvの　CQ列に転記
 ############################################################
-変数名：生活行動－学習・自己啓発・訓練	
+変数名：生活行動－学習・自己啓発・訓練
 出典：平成28年社会生活基本調査
 取得元：以下のリンク
 
@@ -883,7 +901,7 @@ https://www.e-stat.go.jp/stat-search/files?page=1&layout=datalist&toukei=0020053
 ・英語の割合は、P列「11_英語」の男女別の各都道府県別の総数を取得し、
 ・DataFormat.csvの　CR列に転記
 ############################################################
-変数名：生活行動－学習・自己啓発・訓練	
+変数名：生活行動－学習・自己啓発・訓練
 出典：平成28年社会生活基本調査
 取得元：以下のリンク
 
@@ -894,7 +912,7 @@ https://www.e-stat.go.jp/stat-search/files?page=1&layout=datalist&toukei=0020053
 ・英語以外の外国語の割合は、Q列「12_英語以外の外国語」の男女別の各都道府県別の総数を取得し、
 ・DataFormat.csvの　CS列に転記
 ############################################################
-変数名：生活行動－学習・自己啓発・訓練	
+変数名：生活行動－学習・自己啓発・訓練
 出典：平成28年社会生活基本調査
 取得元：以下のリンク
 
@@ -1226,7 +1244,7 @@ https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000177221_00008.html
 
 https://www.e-stat.go.jp/stat-search/files?page=1&query=%E5%93%81%E7%9B%AE%E5%88%86%E9%A1%9E%E3%80%80%E7%AC%AC11%E8%A1%A8&layout=dataset&stat_infid=000032048960&file_type=0
 詳細説明：
-・家計調査 / 家計収支編 総世帯 詳細結果表 
+・家計調査 / 家計収支編 総世帯 詳細結果表
 （品目分類）第11表　都市階級・地方・都道府県庁所在市別1世帯当たり年間の品目別支出金額
 　をダウンロード。
 ・肉類支出金額は、CE列「肉類」の
@@ -1238,7 +1256,7 @@ https://www.e-stat.go.jp/stat-search/files?page=1&query=%E5%93%81%E7%9B%AE%E5%88
 取得元：以下のリンク
 
 https://www.e-stat.go.jp/stat-search/files?page=1&query=%E5%93%81%E7%9B%AE%E5%88%86%E9%A1%9E%E3%80%80%E7%AC%AC11%E8%A1%A8&layout=dataset&stat_infid=000032048960&file_type=0
-・家計調査 / 家計収支編 総世帯 詳細結果表 
+・家計調査 / 家計収支編 総世帯 詳細結果表
 （品目分類）第11表　都市階級・地方・都道府県庁所在市別1世帯当たり年間の品目別支出金額
 　をダウンロード。
 ・魚介類支出金額は、AO列「魚介類」の
@@ -1251,7 +1269,7 @@ https://www.e-stat.go.jp/stat-search/files?page=1&query=%E5%93%81%E7%9B%AE%E5%88
 
 https://www.e-stat.go.jp/stat-search/files?page=1&query=%E5%93%81%E7%9B%AE%E5%88%86%E9%A1%9E%E3%80%80%E7%AC%AC11%E8%A1%A8&layout=dataset&stat_infid=000032048960&file_type=0
 詳細説明：
-・家計調査 / 家計収支編 総世帯 詳細結果表 
+・家計調査 / 家計収支編 総世帯 詳細結果表
 （品目分類）第11表　都市階級・地方・都道府県庁所在市別1世帯当たり年間の品目別支出金額
 　をダウンロード。
 ・牛乳支出金額は、CR列「牛乳」の
@@ -1264,7 +1282,7 @@ https://www.e-stat.go.jp/stat-search/files?page=1&query=%E5%93%81%E7%9B%AE%E5%88
 
 https://www.e-stat.go.jp/stat-search/files?page=1&query=%E5%93%81%E7%9B%AE%E5%88%86%E9%A1%9E%E3%80%80%E7%AC%AC11%E8%A1%A8&layout=dataset&stat_infid=000032048960&file_type=0
 詳細説明：
-・家計調査 / 家計収支編 総世帯 詳細結果表 
+・家計調査 / 家計収支編 総世帯 詳細結果表
 （品目分類）第11表　都市階級・地方・都道府県庁所在市別1世帯当たり年間の品目別支出金額
 　をダウンロード。
 ・乳製品支出金額は、CS列「牛乳」の
@@ -1277,7 +1295,7 @@ https://www.e-stat.go.jp/stat-search/files?page=1&query=%E5%93%81%E7%9B%AE%E5%88
 
 https://www.e-stat.go.jp/stat-search/files?page=1&query=%E5%93%81%E7%9B%AE%E5%88%86%E9%A1%9E%E3%80%80%E7%AC%AC11%E8%A1%A8&layout=dataset&stat_infid=000032048960&file_type=0
 詳細説明：
-・家計調査 / 家計収支編 総世帯 詳細結果表 
+・家計調査 / 家計収支編 総世帯 詳細結果表
 （品目分類）第11表　都市階級・地方・都道府県庁所在市別1世帯当たり年間の品目別支出金額
 　をダウンロード。
 ・卵支出金額は、CY列「卵」の
@@ -1290,7 +1308,7 @@ https://www.e-stat.go.jp/stat-search/files?page=1&query=%E5%93%81%E7%9B%AE%E5%88
 
 https://www.e-stat.go.jp/stat-search/files?page=1&query=%E5%93%81%E7%9B%AE%E5%88%86%E9%A1%9E%E3%80%80%E7%AC%AC11%E8%A1%A8&layout=dataset&stat_infid=000032048960&file_type=0
 詳細説明：
-・家計調査 / 家計収支編 総世帯 詳細結果表 
+・家計調査 / 家計収支編 総世帯 詳細結果表
 （品目分類）第11表　都市階級・地方・都道府県庁所在市別1世帯当たり年間の品目別支出金額
 　をダウンロード。
 ・大豆支出金額は、EO列「大豆」の
@@ -1327,8 +1345,8 @@ https://www.stat.go.jp/data/jyutaku/2018/pdf/kouzou_gaiyou.pdf
 
 https://www.e-stat.go.jp/stat-search/files?page=1&layout=datalist&toukei=00200522&tstat=000001127155&cycle=0&tclass1=000001133983&tclass2=000001133985&stat_infid=000031904792&tclass3val=0
 詳細説明：
-・住宅・土地統計調査 / 平成30年住宅・土地統計調査 / 住宅の構造等に関する集計 全国・都道府県・市区町村  
-・230-2 住宅の建築の時期(7区分)，高齢者等のための設備状況(13区分)別65歳以上の世帯員のいる主世帯数(バリアフリー化住宅に居住する主世帯数―特掲)－全国，都道府県，市区町村 
+・住宅・土地統計調査 / 平成30年住宅・土地統計調査 / 住宅の構造等に関する集計 全国・都道府県・市区町村
+・230-2 住宅の建築の時期(7区分)，高齢者等のための設備状況(13区分)別65歳以上の世帯員のいる主世帯数(バリアフリー化住宅に居住する主世帯数―特掲)－全国，都道府県，市区町村
 　をダウンロード。
 ・バリアフリー_手すりがある集計は、K列「11_手すりがある」の都道府県別総数を取得し、
 ・DataFormat.csvの　EH列に転記
@@ -1339,8 +1357,8 @@ https://www.e-stat.go.jp/stat-search/files?page=1&layout=datalist&toukei=0020052
 
 https://www.e-stat.go.jp/stat-search/files?page=1&layout=datalist&toukei=00200522&tstat=000001127155&cycle=0&tclass1=000001133983&tclass2=000001133985&stat_infid=000031904792&tclass3val=0
 詳細説明：
-・住宅・土地統計調査 / 平成30年住宅・土地統計調査 / 住宅の構造等に関する集計 全国・都道府県・市区町村  
-・230-2 住宅の建築の時期(7区分)，高齢者等のための設備状況(13区分)別65歳以上の世帯員のいる主世帯数(バリアフリー化住宅に居住する主世帯数―特掲)－全国，都道府県，市区町村 
+・住宅・土地統計調査 / 平成30年住宅・土地統計調査 / 住宅の構造等に関する集計 全国・都道府県・市区町村
+・230-2 住宅の建築の時期(7区分)，高齢者等のための設備状況(13区分)別65歳以上の世帯員のいる主世帯数(バリアフリー化住宅に居住する主世帯数―特掲)－全国，都道府県，市区町村
 　をダウンロード。
 ・バリアフリー_廊下などが車いすで通行可能な幅の集計は、U列「13_廊下などが車いすで通行可能な幅」の都道府県別総数を取得し、
 ・DataFormat.csvの　EI列に転記
@@ -1351,8 +1369,8 @@ https://www.e-stat.go.jp/stat-search/files?page=1&layout=datalist&toukei=0020052
 
 https://www.e-stat.go.jp/stat-search/files?page=1&layout=datalist&toukei=00200522&tstat=000001127155&cycle=0&tclass1=000001133983&tclass2=000001133985&stat_infid=000031904792&tclass3val=0
 詳細説明：
-・住宅・土地統計調査 / 平成30年住宅・土地統計調査 / 住宅の構造等に関する集計 全国・都道府県・市区町村  
-・230-2 住宅の建築の時期(7区分)，高齢者等のための設備状況(13区分)別65歳以上の世帯員のいる主世帯数(バリアフリー化住宅に居住する主世帯数―特掲)－全国，都道府県，市区町村 
+・住宅・土地統計調査 / 平成30年住宅・土地統計調査 / 住宅の構造等に関する集計 全国・都道府県・市区町村
+・230-2 住宅の建築の時期(7区分)，高齢者等のための設備状況(13区分)別65歳以上の世帯員のいる主世帯数(バリアフリー化住宅に居住する主世帯数―特掲)－全国，都道府県，市区町村
 　をダウンロード。
 ・バリアフリー_段差のない屋内の集計は、V列「14_段差のない屋内」の都道府県別総数を取得し、
 ・DataFormat.csvの　EJ列に転記
@@ -1666,20 +1684,3 @@ https://www.meti.go.jp/policy/mono_info_service/healthcare/downloadfiles/tiikiba
 ・都道府県ごとのヘルスケア産業協会の有無
 ・ヘルスケア産業協会内の関係団体会員数
 #############################################################
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
