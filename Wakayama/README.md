@@ -1,8 +1,6 @@
-# see 変数説明(link 作成用).txt
-のリンクを
+# dataは　「DataFormat.csvに」
 
-# JpnEng1.csv
-に記載する
+# 変数名は「JpnEng.csv」に
 
 
 # 否定の正規表現
