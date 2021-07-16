@@ -49,7 +49,7 @@ id,var_name_Jpn,var_name_Eng,columm_letter,address
 48,文化・スポーツ_図書館数（人口100万人当たり）,Num_of_libraries,AV,https://www.e-stat.go.jp/stat-search/files?page=1&layout=datalist&toukei=00200502&tstat=000001137306&cycle=0&year=20200&month=0&tclass1=000001137307
 49,健康・医療_一般診療所数(可住地面積100k㎡当たり),Num_of_general_clinics,AW,https://www.e-stat.go.jp/stat-search/files?page=1&layout=datalist&toukei=00200502&tstat=000001137306&cycle=0&year=20200&month=0&tclass1=000001137307
 50,文化・スポーツ_スポーツの行動者率,Sports_Participant_Rate,AX,https://www.e-stat.go.jp/stat-search/files?page=1&layout=datalist&toukei=00200502&tstat=000001137306&cycle=0&year=20200&month=0&tclass1=000001137307
-51,文化・スポーツ_旅行・行楽行動者率,Travel_Rate,AY,https://www.e-stat.go.jp/stat-search/files?page=1&layout=datalist&toukei=00200502&tstat=000001137306&cycle=0&year=20200&month=0&tclass1=000001137307
+51,文化・スポーツ_旅行・行楽行動者率,Travel_Rate1,AY,https://www.e-stat.go.jp/stat-search/files?page=1&layout=datalist&toukei=00200502&tstat=000001137306&cycle=0&year=20200&month=0&tclass1=000001137307
 52,居住_持ち家比率,Residence_owner_ratio,AZ,https://www.e-stat.go.jp/stat-search/files?page=1&layout=datalist&toukei=00200502&tstat=000001137306&cycle=0&year=20200&month=0&tclass1=000001137307
 53,居住_一戸建住宅比率,Residence_house_ratio,BA,https://www.e-stat.go.jp/stat-search/files?page=1&layout=datalist&toukei=00200502&tstat=000001137306&cycle=0&year=20200&month=0&tclass1=000001137307
 54,居住_上水道給水人口比率,Residence_water_supply_pop_ratio,BB,https://www.e-stat.go.jp/stat-search/files?page=1&layout=datalist&toukei=00200502&tstat=000001137306&cycle=0&year=20200&month=0&tclass1=000001137307
