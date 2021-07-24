@@ -1,14 +1,16 @@
 label list 
-ch1:intro
-ch2:data
-ch3:Des
-ch4:methods
-ch5:varsel
-ch6:FA
-ch7:glm
-ch8:bayes
-ch9:conclusion
-
-付録 app
 
 
+\ref{ch1:intro}
+\ref{ch2:data}
+\ref{ch3:Des}
+\ref{ch4:methods}
+\ref{ch5:varsel}
+\ref{ch6:FA}
+\ref{ch7:glm}
+\ref{ch8:bayes}
+\ref{ch9:conclusion}
+
+付録 
+
+\ref{app}
